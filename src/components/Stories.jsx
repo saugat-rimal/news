@@ -11,7 +11,7 @@ const Stories = () => {
       const result = await response.json();
       // isLoading = false;
 
-      console.log(result);
+      // console.log(result);
       return result;
     } catch (error) {
       console.log(error);
